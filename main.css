@@ -1,0 +1,46 @@
+/* Ensure the body and html fill the viewport's full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Align content in a column */
+    justify-content: center; /* Horizontally center everything */
+    align-items: center; /* Vertically center the content */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Background image styling */
+  body {
+    background-image: url('./images/MAIN\ PAGE.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+  }
+  
+  /* Logo styling */
+  #logo {
+    max-width: 200%; /* Ensures the logo doesn't overflow horizontally */
+    max-height: 200%; /* Ensures the logo doesn't overflow vertically */
+    margin-bottom: 20px; /* Adds some space below the logo */
+    transform: translateY(-20px); /* Lifts the logo slightly upwards */
+  }
+  
+  /* Text styling for h1 and h2 */
+  #text1, #text2 {
+    font-family: 'Arial', sans-serif; /* Change font */
+    text-align: center; /* Center the text */
+    color: white; /* Set text color to white for visibility, you can change it */
+  }
+  
+  /* Specific styles for h1 */
+  #text1 {
+    font-size: 3em; /* Adjust font size for h1 */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Specific styles for h2 */
+  #text2 {
+    font-size: 2em; /* Adjust font size for h2 */
+    margin: 10px 0; /* Small margin for better spacing */
+  }
+  
